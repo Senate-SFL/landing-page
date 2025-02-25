@@ -40,6 +40,14 @@ body {
     padding: 0 0 0 14px;
 }
 
+.h-logo-image {
+    background-image: url("./images/go.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
 .h-links {
     padding: 0 14px 0 0;
 }
@@ -102,6 +110,10 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    color: rgb(87, 140, 255);
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -141,6 +153,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     max-width: 220px;
     width: 150px;
     max-height: 150px;
@@ -231,6 +244,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0 0 0 12px;
 }
 
 .s-l-title {
